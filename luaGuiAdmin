@@ -1,0 +1,1025 @@
+---Power By Khanakon
+
+local AdminPanel = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Tile = Instance.new("TextLabel")
+local MenuFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UIPadding = Instance.new("UIPadding")
+local UIGridLayout = Instance.new("UIGridLayout")
+local HealAlls = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local BanList = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Item = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local WarpTo = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local SpawnCar = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local PlayerList = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local NameTag = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local KillAll = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local KickAll = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TeleportAll = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local DelCarAdmin = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Pos = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local TitleN = Instance.new("TextLabel")
+local Pos_2 = Instance.new("TextLabel")
+local Player = Instance.new("Frame")
+local UIPadding_2 = Instance.new("UIPadding")
+local UIGridLayout_2 = Instance.new("UIGridLayout")
+local Heal = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Ban = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local Item_2 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local WarpTo_2 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Kill = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Kick = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local WarpToA = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local CheckInv = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local PList = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local Item_3 = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local ScrollingFrame_2 = Instance.new("ScrollingFrame")
+local UIPadding_3 = Instance.new("UIPadding")
+local UIGridLayout_3 = Instance.new("UIGridLayout")
+local CarList = Instance.new("Frame")
+local UICorner_25 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local ScrollingFrame_3 = Instance.new("ScrollingFrame")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local WarpList = Instance.new("Frame")
+local UICorner_26 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local ScrollingFrame_4 = Instance.new("ScrollingFrame")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local Exit = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local BanList_2 = Instance.new("Frame")
+local UICorner_28 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local ScrollingFrame_5 = Instance.new("ScrollingFrame")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local Amount = Instance.new("Frame")
+local UICorner_29 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_30 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+
+--Properties:
+
+AdminPanel.Name = "AdminPanel"
+AdminPanel.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+AdminPanel.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = AdminPanel
+Main.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.34375, 0, 0.128822982, 0)
+Main.Size = UDim2.new(0, 600, 0, 700)
+Main.Visible = false
+
+UICorner.CornerRadius = UDim.new(0, 12)
+UICorner.Parent = Main
+
+Tile.Name = "Tile"
+Tile.Parent = Main
+Tile.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tile.BackgroundTransparency = 1.000
+Tile.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tile.BorderSizePixel = 0
+Tile.Size = UDim2.new(0, 200, 0, 50)
+Tile.Font = Enum.Font.SourceSansBold
+Tile.Text = "  เมนูแอดมิน"
+Tile.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tile.TextSize = 25.000
+Tile.TextXAlignment = Enum.TextXAlignment.Left
+
+MenuFrame.Name = "MenuFrame"
+MenuFrame.Parent = Main
+MenuFrame.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+MenuFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MenuFrame.BorderSizePixel = 0
+MenuFrame.Position = UDim2.new(0.0416666679, 0, 0.0714285746, 0)
+MenuFrame.Size = UDim2.new(0, 550, 0, 625)
+
+UICorner_2.CornerRadius = UDim.new(0, 12)
+UICorner_2.Parent = MenuFrame
+
+Frame.Parent = MenuFrame
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(-0.00151522551, 0, 0.102766991, 0)
+Frame.Size = UDim2.new(0, 550, 0, 560)
+
+UIPadding.Parent = Frame
+UIPadding.PaddingLeft = UDim.new(0, 10)
+UIPadding.PaddingTop = UDim.new(0, 80)
+
+UIGridLayout.Parent = Frame
+UIGridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellSize = UDim2.new(0, 160, 0, 100)
+
+HealAlls.Name = "HealAlls"
+HealAlls.Parent = Frame
+HealAlls.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+HealAlls.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HealAlls.BorderSizePixel = 0
+HealAlls.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+HealAlls.Size = UDim2.new(0, 150, 0, 80)
+HealAlls.Font = Enum.Font.SourceSans
+HealAlls.Text = "ฮิวทั้งหมด"
+HealAlls.TextColor3 = Color3.fromRGB(255, 255, 255)
+HealAlls.TextSize = 30.000
+HealAlls.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 12)
+UICorner_3.Parent = HealAlls
+
+BanList.Name = "BanList"
+BanList.Parent = Frame
+BanList.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+BanList.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BanList.BorderSizePixel = 0
+BanList.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+BanList.Size = UDim2.new(0, 150, 0, 80)
+BanList.Font = Enum.Font.SourceSans
+BanList.Text = "รายชื่อผู้ถูกแบน"
+BanList.TextColor3 = Color3.fromRGB(255, 255, 255)
+BanList.TextSize = 30.000
+BanList.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 12)
+UICorner_4.Parent = BanList
+
+Item.Name = "Item"
+Item.Parent = Frame
+Item.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Item.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Item.BorderSizePixel = 0
+Item.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+Item.Size = UDim2.new(0, 150, 0, 80)
+Item.Font = Enum.Font.SourceSans
+Item.Text = "เสกไอเทม"
+Item.TextColor3 = Color3.fromRGB(255, 255, 255)
+Item.TextSize = 30.000
+Item.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 12)
+UICorner_5.Parent = Item
+
+WarpTo.Name = "WarpTo"
+WarpTo.Parent = Frame
+WarpTo.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+WarpTo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WarpTo.BorderSizePixel = 0
+WarpTo.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+WarpTo.Size = UDim2.new(0, 150, 0, 80)
+WarpTo.Font = Enum.Font.SourceSans
+WarpTo.Text = "วาร์ปไปยังจุด"
+WarpTo.TextColor3 = Color3.fromRGB(255, 255, 255)
+WarpTo.TextSize = 30.000
+WarpTo.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 12)
+UICorner_6.Parent = WarpTo
+
+SpawnCar.Name = "SpawnCar"
+SpawnCar.Parent = Frame
+SpawnCar.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+SpawnCar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SpawnCar.BorderSizePixel = 0
+SpawnCar.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+SpawnCar.Size = UDim2.new(0, 150, 0, 80)
+SpawnCar.Font = Enum.Font.SourceSans
+SpawnCar.Text = "ยานพาหนะ"
+SpawnCar.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpawnCar.TextSize = 30.000
+SpawnCar.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 12)
+UICorner_7.Parent = SpawnCar
+
+PlayerList.Name = "PlayerList"
+PlayerList.Parent = Frame
+PlayerList.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+PlayerList.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerList.BorderSizePixel = 0
+PlayerList.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+PlayerList.Size = UDim2.new(0, 150, 0, 80)
+PlayerList.Font = Enum.Font.SourceSans
+PlayerList.Text = "รายชื่อผู้เล่น"
+PlayerList.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerList.TextSize = 30.000
+PlayerList.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 12)
+UICorner_8.Parent = PlayerList
+
+NameTag.Name = "NameTag"
+NameTag.Parent = Frame
+NameTag.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+NameTag.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NameTag.BorderSizePixel = 0
+NameTag.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+NameTag.Size = UDim2.new(0, 150, 0, 80)
+NameTag.Font = Enum.Font.SourceSans
+NameTag.Text = "ชื่อบนหัว"
+NameTag.TextColor3 = Color3.fromRGB(255, 255, 255)
+NameTag.TextSize = 30.000
+NameTag.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 12)
+UICorner_9.Parent = NameTag
+
+KillAll.Name = "KillAll"
+KillAll.Parent = Frame
+KillAll.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+KillAll.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KillAll.BorderSizePixel = 0
+KillAll.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+KillAll.Size = UDim2.new(0, 150, 0, 80)
+KillAll.Font = Enum.Font.SourceSans
+KillAll.Text = "ฆ่าทั้งหมด"
+KillAll.TextColor3 = Color3.fromRGB(255, 255, 255)
+KillAll.TextSize = 30.000
+KillAll.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 12)
+UICorner_10.Parent = KillAll
+
+KickAll.Name = "KickAll"
+KickAll.Parent = Frame
+KickAll.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+KickAll.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KickAll.BorderSizePixel = 0
+KickAll.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+KickAll.Size = UDim2.new(0, 150, 0, 80)
+KickAll.Font = Enum.Font.SourceSans
+KickAll.Text = "แตะทั้งหมด"
+KickAll.TextColor3 = Color3.fromRGB(255, 255, 255)
+KickAll.TextSize = 30.000
+KickAll.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 12)
+UICorner_11.Parent = KickAll
+
+TeleportAll.Name = "TeleportAll"
+TeleportAll.Parent = Frame
+TeleportAll.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+TeleportAll.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TeleportAll.BorderSizePixel = 0
+TeleportAll.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+TeleportAll.Size = UDim2.new(0, 150, 0, 80)
+TeleportAll.Font = Enum.Font.SourceSans
+TeleportAll.Text = "ดึงทั้งหมด"
+TeleportAll.TextColor3 = Color3.fromRGB(255, 255, 255)
+TeleportAll.TextSize = 30.000
+TeleportAll.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 12)
+UICorner_12.Parent = TeleportAll
+
+DelCarAdmin.Name = "DelCarAdmin"
+DelCarAdmin.Parent = Frame
+DelCarAdmin.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+DelCarAdmin.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DelCarAdmin.BorderSizePixel = 0
+DelCarAdmin.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+DelCarAdmin.Size = UDim2.new(0, 150, 0, 80)
+DelCarAdmin.Font = Enum.Font.SourceSans
+DelCarAdmin.Text = "ลบรถแอดมิน"
+DelCarAdmin.TextColor3 = Color3.fromRGB(255, 255, 255)
+DelCarAdmin.TextSize = 30.000
+DelCarAdmin.TextWrapped = true
+
+UICorner_13.CornerRadius = UDim.new(0, 12)
+UICorner_13.Parent = DelCarAdmin
+
+Pos.Name = "Pos"
+Pos.Parent = MenuFrame
+Pos.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Pos.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Pos.BorderSizePixel = 0
+Pos.Position = UDim2.new(0, 0, -2.44140619e-08, 0)
+Pos.Size = UDim2.new(0, 550, 0, 38)
+
+UICorner_14.CornerRadius = UDim.new(0, 12)
+UICorner_14.Parent = Pos
+
+Frame_2.Parent = Pos
+Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 0.368990034, 0)
+Frame_2.Size = UDim2.new(0, 550, 0, 48)
+
+TitleN.Name = "TitleN"
+TitleN.Parent = Frame_2
+TitleN.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TitleN.BackgroundTransparency = 1.000
+TitleN.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TitleN.BorderSizePixel = 0
+TitleN.Position = UDim2.new(0, 0, -0.250130802, 0)
+TitleN.Size = UDim2.new(0, 200, 0, 31)
+TitleN.Font = Enum.Font.SourceSans
+TitleN.Text = "  ตำแหน่งของคุณ :"
+TitleN.TextColor3 = Color3.fromRGB(255, 255, 255)
+TitleN.TextSize = 20.000
+TitleN.TextXAlignment = Enum.TextXAlignment.Left
+
+Pos_2.Name = "Pos"
+Pos_2.Parent = Frame_2
+Pos_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pos_2.BackgroundTransparency = 1.000
+Pos_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Pos_2.BorderSizePixel = 0
+Pos_2.Position = UDim2.new(0, 0, 0.386708796, 0)
+Pos_2.Size = UDim2.new(0, 200, 0, 32)
+Pos_2.Font = Enum.Font.SourceSansBold
+Pos_2.Text = "  X : Y: Z:"
+Pos_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Pos_2.TextSize = 25.000
+Pos_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Player.Name = "Player"
+Player.Parent = MenuFrame
+Player.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Player.BackgroundTransparency = 1.000
+Player.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Player.BorderSizePixel = 0
+Player.Position = UDim2.new(-0.00151522551, 0, 0.102766991, 0)
+Player.Size = UDim2.new(0, 550, 0, 560)
+Player.Visible = false
+
+UIPadding_2.Parent = Player
+UIPadding_2.PaddingLeft = UDim.new(0, 10)
+UIPadding_2.PaddingTop = UDim.new(0, 80)
+
+UIGridLayout_2.Parent = Player
+UIGridLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_2.CellSize = UDim2.new(0, 160, 0, 100)
+
+Heal.Name = "Heal"
+Heal.Parent = Player
+Heal.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Heal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Heal.BorderSizePixel = 0
+Heal.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+Heal.Size = UDim2.new(0, 150, 0, 80)
+Heal.Font = Enum.Font.SourceSans
+Heal.Text = "ฮิว"
+Heal.TextColor3 = Color3.fromRGB(255, 255, 255)
+Heal.TextSize = 30.000
+Heal.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 12)
+UICorner_15.Parent = Heal
+
+Ban.Name = "Ban"
+Ban.Parent = Player
+Ban.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Ban.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Ban.BorderSizePixel = 0
+Ban.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+Ban.Size = UDim2.new(0, 150, 0, 80)
+Ban.Font = Enum.Font.SourceSans
+Ban.Text = "แบน"
+Ban.TextColor3 = Color3.fromRGB(255, 255, 255)
+Ban.TextSize = 30.000
+Ban.TextWrapped = true
+
+UICorner_16.CornerRadius = UDim.new(0, 12)
+UICorner_16.Parent = Ban
+
+Item_2.Name = "Item"
+Item_2.Parent = Player
+Item_2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Item_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Item_2.BorderSizePixel = 0
+Item_2.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+Item_2.Size = UDim2.new(0, 150, 0, 80)
+Item_2.Visible = false
+Item_2.Font = Enum.Font.SourceSans
+Item_2.Text = "เสกไอเทม"
+Item_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Item_2.TextSize = 30.000
+Item_2.TextWrapped = true
+
+UICorner_17.CornerRadius = UDim.new(0, 12)
+UICorner_17.Parent = Item_2
+
+WarpTo_2.Name = "WarpTo"
+WarpTo_2.Parent = Player
+WarpTo_2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+WarpTo_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WarpTo_2.BorderSizePixel = 0
+WarpTo_2.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+WarpTo_2.Size = UDim2.new(0, 150, 0, 80)
+WarpTo_2.Font = Enum.Font.SourceSans
+WarpTo_2.Text = "วาร์ปไปหา"
+WarpTo_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+WarpTo_2.TextSize = 30.000
+WarpTo_2.TextWrapped = true
+
+UICorner_18.CornerRadius = UDim.new(0, 12)
+UICorner_18.Parent = WarpTo_2
+
+Kill.Name = "Kill"
+Kill.Parent = Player
+Kill.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Kill.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Kill.BorderSizePixel = 0
+Kill.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+Kill.Size = UDim2.new(0, 150, 0, 80)
+Kill.Font = Enum.Font.SourceSans
+Kill.Text = "ฆ่า"
+Kill.TextColor3 = Color3.fromRGB(255, 255, 255)
+Kill.TextSize = 30.000
+Kill.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(0, 12)
+UICorner_19.Parent = Kill
+
+Kick.Name = "Kick"
+Kick.Parent = Player
+Kick.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Kick.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Kick.BorderSizePixel = 0
+Kick.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+Kick.Size = UDim2.new(0, 150, 0, 80)
+Kick.Font = Enum.Font.SourceSans
+Kick.Text = "แตะ"
+Kick.TextColor3 = Color3.fromRGB(255, 255, 255)
+Kick.TextSize = 30.000
+Kick.TextWrapped = true
+
+UICorner_20.CornerRadius = UDim.new(0, 12)
+UICorner_20.Parent = Kick
+
+WarpToA.Name = "WarpToA"
+WarpToA.Parent = Player
+WarpToA.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+WarpToA.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WarpToA.BorderSizePixel = 0
+WarpToA.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+WarpToA.Size = UDim2.new(0, 150, 0, 80)
+WarpToA.Font = Enum.Font.SourceSans
+WarpToA.Text = "ดึง"
+WarpToA.TextColor3 = Color3.fromRGB(255, 255, 255)
+WarpToA.TextSize = 30.000
+WarpToA.TextWrapped = true
+
+UICorner_21.CornerRadius = UDim.new(0, 12)
+UICorner_21.Parent = WarpToA
+
+CheckInv.Name = "CheckInv"
+CheckInv.Parent = Player
+CheckInv.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+CheckInv.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CheckInv.BorderSizePixel = 0
+CheckInv.Position = UDim2.new(0.0181818176, 0, 0.116800003, 0)
+CheckInv.Size = UDim2.new(0, 150, 0, 80)
+CheckInv.Font = Enum.Font.SourceSans
+CheckInv.Text = "เปิดกระเป๋า"
+CheckInv.TextColor3 = Color3.fromRGB(255, 255, 255)
+CheckInv.TextSize = 30.000
+CheckInv.TextWrapped = true
+
+UICorner_22.CornerRadius = UDim.new(0, 12)
+UICorner_22.Parent = CheckInv
+
+PList.Name = "PList"
+PList.Parent = Main
+PList.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+PList.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PList.BorderSizePixel = 0
+PList.Position = UDim2.new(-0.464847624, 0, 0, 0)
+PList.Size = UDim2.new(0, 250, 0, 700)
+PList.Visible = false
+
+UICorner_23.CornerRadius = UDim.new(0, 12)
+UICorner_23.Parent = PList
+
+TextLabel.Parent = PList
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 250, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "รายชื่อผู้เล่น"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 30.000
+
+ScrollingFrame.Parent = PList
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, 0.0700000003, 0)
+ScrollingFrame.Size = UDim2.new(0, 250, 0, 651)
+ScrollingFrame.ScrollBarThickness = 1
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 5)
+
+Item_3.Name = "Item"
+Item_3.Parent = Main
+Item_3.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+Item_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Item_3.BorderSizePixel = 0
+Item_3.Position = UDim2.new(0.0399999991, 0, 0.0714284852, 0)
+Item_3.Size = UDim2.new(0, 550, 0, 625)
+Item_3.Visible = false
+
+UICorner_24.CornerRadius = UDim.new(0, 12)
+UICorner_24.Parent = Item_3
+
+ScrollingFrame_2.Parent = Item_3
+ScrollingFrame_2.Active = true
+ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_2.BackgroundTransparency = 1.000
+ScrollingFrame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame_2.BorderSizePixel = 0
+ScrollingFrame_2.Size = UDim2.new(0, 550, 0, 625)
+ScrollingFrame_2.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
+
+UIPadding_3.Parent = ScrollingFrame_2
+UIPadding_3.PaddingLeft = UDim.new(0, 10)
+UIPadding_3.PaddingTop = UDim.new(0, 10)
+
+UIGridLayout_3.Parent = ScrollingFrame_2
+UIGridLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+
+CarList.Name = "CarList"
+CarList.Parent = Main
+CarList.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+CarList.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CarList.BorderSizePixel = 0
+CarList.Position = UDim2.new(-0.464847624, 0, 0, 0)
+CarList.Size = UDim2.new(0, 250, 0, 700)
+CarList.Visible = false
+
+UICorner_25.CornerRadius = UDim.new(0, 12)
+UICorner_25.Parent = CarList
+
+TextLabel_2.Parent = CarList
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(0, 250, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "รายชื่อรถ"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 30.000
+
+ScrollingFrame_3.Parent = CarList
+ScrollingFrame_3.Active = true
+ScrollingFrame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_3.BackgroundTransparency = 1.000
+ScrollingFrame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame_3.BorderSizePixel = 0
+ScrollingFrame_3.Position = UDim2.new(0, 0, 0.0700000003, 0)
+ScrollingFrame_3.Size = UDim2.new(0, 250, 0, 651)
+ScrollingFrame_3.ScrollBarThickness = 1
+
+UIListLayout_2.Parent = ScrollingFrame_3
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0, 5)
+
+WarpList.Name = "WarpList"
+WarpList.Parent = Main
+WarpList.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+WarpList.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WarpList.BorderSizePixel = 0
+WarpList.Position = UDim2.new(-0.464847624, 0, 0, 0)
+WarpList.Size = UDim2.new(0, 250, 0, 700)
+WarpList.Visible = false
+
+UICorner_26.CornerRadius = UDim.new(0, 12)
+UICorner_26.Parent = WarpList
+
+TextLabel_3.Parent = WarpList
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Size = UDim2.new(0, 250, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "รายชื่อจุดวาร์ป"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 30.000
+
+ScrollingFrame_4.Parent = WarpList
+ScrollingFrame_4.Active = true
+ScrollingFrame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_4.BackgroundTransparency = 1.000
+ScrollingFrame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame_4.BorderSizePixel = 0
+ScrollingFrame_4.Position = UDim2.new(0, 0, 0.0700000003, 0)
+ScrollingFrame_4.Size = UDim2.new(0, 250, 0, 651)
+ScrollingFrame_4.ScrollBarThickness = 1
+
+UIListLayout_3.Parent = ScrollingFrame_4
+UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.Padding = UDim.new(0, 5)
+
+Exit.Name = "Exit"
+Exit.Parent = Main
+Exit.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Exit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Exit.BorderSizePixel = 0
+Exit.Position = UDim2.new(0.858333349, 0, 0.0171428565, 0)
+Exit.Size = UDim2.new(0, 60, 0, 25)
+Exit.Font = Enum.Font.SourceSans
+Exit.Text = "กลับ"
+Exit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Exit.TextScaled = true
+Exit.TextSize = 14.000
+Exit.TextWrapped = true
+
+UICorner_27.CornerRadius = UDim.new(0, 4)
+UICorner_27.Parent = Exit
+
+BanList_2.Name = "BanList"
+BanList_2.Parent = Main
+BanList_2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+BanList_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BanList_2.BorderSizePixel = 0
+BanList_2.Position = UDim2.new(-0.464847624, 0, 0, 0)
+BanList_2.Size = UDim2.new(0, 250, 0, 700)
+BanList_2.Visible = false
+
+UICorner_28.CornerRadius = UDim.new(0, 12)
+UICorner_28.Parent = BanList_2
+
+TextLabel_4.Parent = BanList_2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Size = UDim2.new(0, 250, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "รายชื่อผู้เล่น"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 30.000
+
+ScrollingFrame_5.Parent = BanList_2
+ScrollingFrame_5.Active = true
+ScrollingFrame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_5.BackgroundTransparency = 1.000
+ScrollingFrame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame_5.BorderSizePixel = 0
+ScrollingFrame_5.Position = UDim2.new(0, 0, 0.0700000003, 0)
+ScrollingFrame_5.Size = UDim2.new(0, 250, 0, 651)
+ScrollingFrame_5.ScrollBarThickness = 1
+
+UIListLayout_4.Parent = ScrollingFrame_5
+UIListLayout_4.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.Padding = UDim.new(0, 5)
+
+Amount.Name = "Amount"
+Amount.Parent = AdminPanel
+Amount.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Amount.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Amount.BorderSizePixel = 0
+Amount.Position = UDim2.new(0.441145837, 0, 0.40129751, 0)
+Amount.Size = UDim2.new(0, 250, 0, 120)
+Amount.Visible = false
+
+UICorner_29.CornerRadius = UDim.new(0, 12)
+UICorner_29.Parent = Amount
+
+TextBox.Parent = Amount
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.100000001, 0, 0.483333319, 0)
+TextBox.Size = UDim2.new(0, 200, 0, 50)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderText = "จำนวน"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+UICorner_30.CornerRadius = UDim.new(0, 12)
+UICorner_30.Parent = TextBox
+
+TextLabel_5.Parent = Amount
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.100000001, 0, 0, 0)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "ใส่จำนวนไอเทมที่ต้องการ"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 25.000
+
+-- Scripts:
+
+local function EWCRZDE_fake_script() -- AdminPanel.LocalScript 
+	local script = Instance.new('LocalScript', AdminPanel)
+
+	local player = game.Players.LocalPlayer
+	local Remote = game.ReplicatedStorage.Admin.RemoteEvent
+	local Config = require(game.ReplicatedStorage.Admin.Config)
+	local DataName = Config.Leaderstats
+	local Data = player:FindFirstChild("Inventory") or player:WaitForChild("Inventory")
+	local Uis = game:GetService("UserInputService")
+	local Menu
+	local playerselect = player.Name
+	local Itemg
+	
+	local Main = script.Parent.Main
+	local MenuA = Main.MenuFrame.Frame
+	
+	local function playerlist(player)
+		for i,Frame in pairs(Main.PList.ScrollingFrame:GetChildren()) do
+			if Frame.Name ~= "UIListLayout" then
+				Frame:Destroy()
+			end
+		end
+		
+		local Players = game.Players
+		for i,v in pairs(Players:GetChildren()) do
+			local Temp = game.ReplicatedStorage.Admin.TempPlayer:Clone()
+			Temp.Text = v.Name
+			Temp.Name = v.Name
+			Temp.Parent = Main.PList.ScrollingFrame
+			
+			Temp.MouseButton1Click:Connect(function()
+				playerselect = Temp.Name
+				if playerselect ~= nil then
+					Main.MenuFrame.Player.Visible = true
+					Main.MenuFrame.Frame.Visible = false
+				end
+			end)
+		end
+	end
+	
+	local function Car(player)
+		for i,Frame in pairs(Main.CarList.ScrollingFrame:GetChildren()) do
+			if Frame.Name ~= "UIListLayout" then
+				Frame:Destroy()
+			end
+		end
+		
+			for i,v in pairs(game.ReplicatedStorage["CarShop/Garage"].CarModel:GetChildren()) do
+			local Temp = game.ReplicatedStorage.Admin.TempPlayer:Clone()
+			Temp.Text = v.Name
+			Temp.Parent = Main.CarList.ScrollingFrame
+			
+			Temp.MouseButton1Click:Connect(function()
+				Menu = "SpawnCar"
+				Temp.Name = v.Name
+				Remote:FireServer(Menu,Temp.Name)
+			end)
+		end
+	end
+	
+	local function Warp(player)
+		for i,Frame in pairs(Main.WarpList.ScrollingFrame:GetChildren()) do
+			if Frame.Name ~= "UIGridLayout" then
+				Frame:Destroy()
+			end
+		end
+		
+		local pos = require(game.ReplicatedStorage.Admin.Warp)
+	
+		for i,v in pairs(pos) do
+			local Temp = game.ReplicatedStorage.Admin.TempPlayer:Clone()
+			Temp.Text = i
+			Temp.Parent = Main.WarpList.ScrollingFrame
+	
+			Temp.MouseButton1Click:Connect(function()
+				Menu = "Warp"
+				Temp.Name = pos[i]["Position"]
+				Remote:FireServer(Menu,Temp.Name)
+			end)
+		end
+	end
+	
+	local function Items()
+		for i,Frame in pairs(Main.Item.ScrollingFrame:GetChildren()) do
+			if Frame.Name ~= "UIGridLayout" and "UIPadding" then
+				Frame:Destroy()
+			end
+		end
+		
+		local Items = require(game.ReplicatedStorage.Inventory.Item)
+		for i,v in pairs(Data:GetChildren()) do
+			local Item = game.ReplicatedStorage.Admin.ItemTemplate:Clone()
+			Item.Parent = Main.Item.ScrollingFrame
+			Item.TextLabel.Text = v.Name
+			Item.Name = v.Name
+			Item.Image = Items[v.Name]["Image"] or "rbxassetid://14997480862"
+			Item.MouseButton1Click:Connect(function()
+				Main.Parent.Amount.Visible = true
+				Itemg = v.Name
+			end)
+		end
+	end
+	
+	local function BanList()
+		for i,Frame in pairs(Main.BanList.ScrollingFrame:GetChildren()) do
+			if Frame.Name ~= "UIGridLayout" and "UIPadding" then
+				Frame:Destroy()
+			end
+		end
+		
+		for i,v in pairs(game.ReplicatedStorage:FindFirstChild("BanList"):GetChildren()) do
+			local Temp = game.ReplicatedStorage.Admin.TempPlayer:Clone()
+			Temp.Text = i
+			Temp.Parent = Main.BanList.ScrollingFrame
+		end
+	end
+	
+	
+	local function playerMode(Menu)
+		if Menu =="KillAll" then
+			Remote:FireServer(Menu)
+		elseif Menu == "HealAll" then
+			Remote:FireServer(Menu)
+		end
+	end
+	
+	Main.Parent.Amount.TextBox.FocusLost:Connect(function()
+		local Amount = tonumber(Main.Parent.Amount.TextBox.Text)
+		if Menu == "AddItem" then
+			Main.Parent.Amount.Visible = false
+			Remote:FireServer(Menu,Itemg,Amount)
+		elseif Menu == "GiveItem" then
+			Remote:FireServer(Menu,playerselect,Itemg,Amount)
+			Main.Parent.Amount.Visible = false
+		end
+	end)
+	
+	MenuA.PlayerList.MouseButton1Click:Connect(function()
+		playerlist()
+		Main.PList.Visible = true
+		Main.BanList.Visible = false
+		Main.CarList.Visible = false
+		Main.WarpList.Visible = false
+	end)
+	
+	MenuA.Item.MouseButton1Click:Connect(function()
+		Main.Item.Visible = true
+		Menu = "AddItem"
+		Items()
+	end)
+	
+	MenuA.SpawnCar.MouseButton1Click:Connect(function()
+		Main.CarList.Visible = true
+		Main.BanList.Visible = false
+		Main.PList.Visible = false
+		Main.WarpList.Visible = false
+		Car()
+	end)
+	
+	MenuA.WarpTo.MouseButton1Click:Connect(function()
+		Main.WarpList.Visible = true
+		Main.PList.Visible = false
+		Main.CarList.Visible = false
+		Main.BanList.Visible = false
+		Warp()
+		
+	end)
+	
+	MenuA.KickAll.MouseButton1Click:Connect(function()
+		Menu = "KickAll"
+		Remote:FireServer(Menu)
+	end)
+	
+	MenuA.KillAll.MouseButton1Click:Connect(function()
+		playerMode("KillAll")
+		--Remote:FireServer(Menu)
+	end)
+	
+	MenuA.HealAlls.MouseButton1Click:Connect(function()
+		playerMode("HealAll")
+		--
+	end)
+	
+	MenuA.TeleportAll.MouseButton1Click:Connect(function()
+		Menu = "TeleportAll"
+		Remote:FireServer(Menu)
+	end)
+	
+	Uis.InputBegan:Connect(function(key,chat)
+		if chat then return end
+		if key.KeyCode == Enum.KeyCode[Config.Key] then
+			Main.Visible = not Main.Visible
+		end
+	end)
+	
+	MenuA.Parent.Player.Item.MouseButton1Click:Connect(function()
+		Main.Item.Visible = true
+		Menu = "GiveItem"
+		Items()
+	end)
+	
+	MenuA.BanList.MouseButton1Click:Connect(function()
+		Main.BanList.Visible = true
+		Main.PList.Visible = false
+		Main.CarList.Visible = false
+		Main.WarpList.Visible = false
+	end)
+	
+	MenuA.DelCarAdmin.MouseButton1Click:Connect(function()
+		Menu = "DelCarAdmin"
+		Remote:FireServer(Menu)
+	end)
+	Main.Exit.MouseButton1Click:Connect(function()
+		for i, v in pairs(Main:GetChildren()) do
+			if v:IsA("Frame") and v.Name ~= "MenuFrame" then
+				v.Visible = false
+				Main.MenuFrame.Player.Visible = false
+				Main.MenuFrame.Frame.Visible = true
+				Main.MenuFrame.Pos.Frame.TitleN.Text = "  ตำแหน่งของคุณ :"
+			end
+		end
+	end)
+	
+	MenuA.Parent.Player.Ban.MouseButton1Click:Connect(function()
+		Menu = "BanPlayer"
+		Remote:FireServer(Menu,playerselect)
+	end)
+	
+	MenuA.Parent.Player.Kick.MouseButton1Click:Connect(function()
+		Menu = "KickPlr"
+		Remote:FireServer(Menu,playerselect)
+	end)
+	
+	MenuA.Parent.Player.WarpTo.MouseButton1Click:Connect(function()
+		Menu = "TpToPlr"
+		Remote:FireServer(Menu,playerselect)
+	end)
+	
+	MenuA.Parent.Player.WarpToA.MouseButton1Click:Connect(function()
+		Menu = "PlrToA"
+		Remote:FireServer(Menu,playerselect)
+	end)
+	MenuA.Parent.Player.Heal.MouseButton1Click:Connect(function()
+		Menu = "Heal"
+		Remote:FireServer(Menu,playerselect)
+	end)
+	MenuA.Parent.Player.Kill.MouseButton1Click:Connect(function()
+		Menu = "Kill"
+		Remote:FireServer(Menu,playerselect)
+	end)
+	
+	local function updateCFrame()
+		if game.Players[playerselect].Character and game.Players[playerselect].Character:FindFirstChild("HumanoidRootPart") then
+			local cframe = game.Players[playerselect].Character.HumanoidRootPart.CFrame
+			local position = cframe.Position
+			Main.MenuFrame.Pos.Frame.Pos.Text = string.format("  Position: X=%.2f, Y=%.2f, Z=%.2f : ",  position.X, position.Y, position.Z)
+			Main.MenuFrame.Pos.Frame.TitleN.Text = "  ตำแหน่งของคุณ :"..playerselect
+		end
+	end
+	
+	while wait(0.1) do
+		updateCFrame()
+	end
+end
+coroutine.wrap(EWCRZDE_fake_script)()
